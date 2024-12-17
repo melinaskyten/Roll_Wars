@@ -1,4 +1,3 @@
-import java.awt.*;
 
 public class Player extends Person {
     private String color;
