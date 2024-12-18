@@ -39,10 +39,8 @@ public class Game {
                     highScore.printHighScore();
                     break;
                 case 3: //Rules
-                    if (rules == null) {
                         rules = Rules.getInstance();
-                    }
-                    rules.printRules();
+                        rules.printRules();
                     break;
                 case 4: //Feedback
                     feedback.getFeedback();
